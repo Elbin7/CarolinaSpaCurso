@@ -31,7 +31,10 @@
           margin: 0; 
   }
 
+a {text-decoration: none!important; }
+
 body {
+     font-family: 'Barlow', sans-serif !important; 
      background-color: var(--light);
      -webkit-font-smoothing: antialiased;
      -moz-osx-font-smoothing: grayscale;
@@ -39,6 +42,93 @@ body {
      -webkit-font-smoothing: antialiased;
      -moz-osx-font-smoothing: grayscale;
 }
+
+
+/**************** GENERAL *****************/
+
+.Hr  { margin: 4px 0; border: 0.5px solid #e4ecef; }
+
+.FullWidth            { width : 100%; }
+.FullHeight           { height: 100%; }
+.FullSize             { width : 100%; height: 100%; }
+
+.HeightBodyModal      { height: calc(100vh - 50px); }
+.HeightScrollFilter   { height: calc(100vh - 240px); }
+
+.PositionRelative     { position: relative !important; }
+.Display-None         { display: none!important;}
+
+.Box_Shadow  { box-shadow: 0 5px 6px rgba(0, 0, 0, 0.12) !important;}
+
+.Box_Shadow_lg  { box-shadow: 0 7px 17px rgba(0, 0, 0, 0.13) !important;}
+
+/************* Fuentes Tamaños *************/
+
+.FontsSize-10 { font-size: 10px !important;}
+.FontsSize-11 { font-size: 11px !important;}
+.FontsSize-12 { font-size: 12px !important;}
+.FontsSize-13 { font-size: 13px !important;}
+.FontsSize-14 { font-size: 14px !important;}
+.FontsSize-15 { font-size: 15px !important;}
+.FontsSize-16 { font-size: 16px !important;}
+.FontsSize-17 { font-size: 17px !important;}
+.FontsSize-18 { font-size: 18px !important;}
+.FontsSize-19 { font-size: 19px !important;}
+.FontsSize-20 { font-size: 20px !important;}
+.FontsSize-22 { font-size: 22px !important;}
+.FontsSize-23 { font-size: 23px !important;}
+.FontsSize-24 { font-size: 24px !important;}
+.FontsSize-lg { font-size: 30px !important;}
+.FontsSize-45 { font-size: 45px !important;}
+
+/***************  Letter Spacing  ***************/
+
+.LetterSpacing_N {letter-spacing: normal;}
+.L-S-3 {letter-spacing: 1px;}
+.L-S-2 {letter-spacing: 0.5px;}
+.L-S-1 {letter-spacing: 0.25px;}
+.L-S-05 {letter-spacing: -0.05px;}
+.L-S-n1 {letter-spacing: -0.1px;}
+.LineHeight-Initial {line-height: initial; }
+.L-H-1 {line-height: 1; }
+.L-H-2 {line-height: 1.2; }
+.L-H-3 {line-height: 1.3; }
+.L-H-4 {line-height: 1.4; }
+.L-H-5 {line-height: 1.5; }
+
+
+/**************** Estilos grid ****************/
+.Display-Grid  { display: grid!important; }
+.CursorPointer { cursor: pointer; }
+
+/**************** Estilos Fuentes ****************/
+
+.X-Light { font-weight: 200; }
+.Light {font-weight: 300!important; }
+.Regular {font-weight: 400!important;}
+.Medium { font-weight: 500!important;}
+.Semibold { font-weight: 600!important;}
+.Bold { font-weight:700!important;}
+.Extra-Bold { font-weight:800!important;}
+.Black { font-weight:900!important;}
+.LightItalic {font-style: italic;}
+
+/**************** GENERAL *****************/
+
+
+
+/**************** CÓDIGO PROYECTO *****************/
+
+.Color-Light        { color: var(--light);}
+.Color-Light-xx     { color: var(--light-xx);}
+.Color-Muted        { color: var(--Muted);}
+
+.BK-Color-Light        { background-color: var(--light);}
+.BK-Color-Light-xx     { background-color: var(--light-xx);}
+.BK-Color-Gray-xx     { background-color: var(--Gray-xx);}
+.BK-Color-Gray-x       { background-color: var(--Gray-x);}
+
+
 
 
 /* Area de Redes Sociales */
